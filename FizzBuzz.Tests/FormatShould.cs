@@ -44,5 +44,21 @@ namespace FizzBuzz.Tests
 
             Assert.IsTrue(result == "Fizz");
         }
+
+        [TestMethod]
+        public void ReturnBuzzGiven152()
+        {
+            var result = FizzBuzzLogic.Format(152);
+
+            Assert.IsTrue(result == "Buzz");
+        }
+
+        [TestMethod]
+        public void ReturnBuzzGiven352()
+        {
+            var result = FizzBuzzLogic.Format(352);
+
+            Assert.IsTrue(result == "FizzBuzz");
+        }
     }
 }
