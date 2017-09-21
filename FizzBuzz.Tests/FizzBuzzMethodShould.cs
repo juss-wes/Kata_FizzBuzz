@@ -10,10 +10,10 @@ namespace FizzBuzz.Tests
         public void ReturnCorrectNumberOfResults()
         {
             var numberOfRecords = 100;
-            var collection = FizzBuzzLogic.FizzBuzz(numberOfRecords);
+            var results = FizzBuzzLogic.FizzBuzz(numberOfRecords);
 
-            Assert.IsNotNull(collection);
-            Assert.IsTrue(collection.Count() == numberOfRecords);
+            Assert.IsNotNull(results);
+            Assert.IsTrue(results.Count() == numberOfRecords);
         }
     }
 }
