@@ -9,24 +9,45 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF7FCBA3-EE49-4C99-B2FD-6C65EF38BB84}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		README.md = README.md
 		Specifications.docx = Specifications.docx
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Executable", "FizzBuzz.Executable\FizzBuzz.Executable.csproj", "{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		VS2015|Any CPU = VS2015|Any CPU
+		VS2017|Any CPU = VS2017|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.VS2015|Any CPU.ActiveCfg = VS2015|Any CPU
+		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.VS2015|Any CPU.Build.0 = VS2015|Any CPU
+		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.VS2017|Any CPU.ActiveCfg = VS2017|Any CPU
+		{8F2DDAAB-8115-4AEB-BCA9-FBBD27EF8E1A}.VS2017|Any CPU.Build.0 = VS2017|Any CPU
 		{54933547-5B1E-4022-B60A-5B326CEFD15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54933547-5B1E-4022-B60A-5B326CEFD15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54933547-5B1E-4022-B60A-5B326CEFD15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54933547-5B1E-4022-B60A-5B326CEFD15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54933547-5B1E-4022-B60A-5B326CEFD15B}.VS2015|Any CPU.ActiveCfg = VS2015|Any CPU
+		{54933547-5B1E-4022-B60A-5B326CEFD15B}.VS2015|Any CPU.Build.0 = VS2015|Any CPU
+		{54933547-5B1E-4022-B60A-5B326CEFD15B}.VS2017|Any CPU.ActiveCfg = VS2017|Any CPU
+		{54933547-5B1E-4022-B60A-5B326CEFD15B}.VS2017|Any CPU.Build.0 = VS2017|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.VS2015|Any CPU.ActiveCfg = VS2015|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.VS2015|Any CPU.Build.0 = VS2015|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.VS2017|Any CPU.ActiveCfg = VS2017|Any CPU
+		{5A58ABE0-72C4-4003-AEF5-7529FF0D389E}.VS2017|Any CPU.Build.0 = VS2017|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
