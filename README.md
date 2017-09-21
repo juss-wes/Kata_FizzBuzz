@@ -1,20 +1,35 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+FizzBuzz Kata
+============
+Source: [https://github.com/ardalis/kata-catalog](https://github.com/ardalis/kata-catalog)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Instructions #
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+FizzBuzz is a simple number game in which you count, but replace certain numbers with the words "Fizz" and/or "Buzz", adhering to certain rules.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+1. Create a FizzBuzz() method that returns the numbers 1 through 100.
+2. Instead of numbers divisible by 3, the method should output "Fizz".
+3. Instead of numbers divisible by 5, the method should output "Buzz".
+4. Instead of numbers divisible by 3 and 5, the method should output "FizzBuzz".
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Sample Output ##
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    FizzBuzz
+    16
+
+## Extra Credit ##
+- Instead of numbers with a three in them, print "Fizz".
+- Instead of numbers with a five in them, print "Buzz".
+- Instead of numbers with a three and a five in them, print "FizzBuzz".
