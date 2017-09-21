@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FizzBuzz.Tests
 {
@@ -35,6 +35,14 @@ namespace FizzBuzz.Tests
             var result = FizzBuzzLogic.Format(4);
 
             Assert.IsTrue(result == "4");
+        }
+
+        [TestMethod]
+        public void ReturnFizzGiven13()
+        {
+            var result = FizzBuzzLogic.Format(13);
+
+            Assert.IsTrue(result == "Fizz");
         }
     }
 }
