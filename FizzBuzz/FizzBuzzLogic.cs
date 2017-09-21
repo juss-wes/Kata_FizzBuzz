@@ -27,7 +27,7 @@ namespace FizzBuzz
         /// </summary>
         /// <param name="number">Number to format</param>
         /// <returns>Formatted output result</returns>
-        private static string Format(int number)
+        public static string Format(int number)
         {
             var result = number.ToString();
 
